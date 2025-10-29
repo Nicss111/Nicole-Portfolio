@@ -1,25 +1,24 @@
 {
   "name": "Nicole-Portfolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source":  "index.html",
-
+  "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel serve index.html --port 1234",
+    "build": "parcel build index.html --dist-dir dist --public-url ./"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nicss111"
+    "url": "https://github.com/Nicss111/Nicole-Portfolio"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Nicole Ann Tenizo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nicss111"
+    "url": "https://github.com/Nicss111/Nicole-Portfolio/issues"
   },
-  "homepage": "https://github.com/Nicss111",
+  "homepage": "https://nicss111.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.8.2",
@@ -32,7 +31,7 @@
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
   },
-   "engines": {
+  "engines": {
     "node": ">=18.x"
-}
+  }
 }
