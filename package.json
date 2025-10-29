@@ -1,9 +1,10 @@
 {
-  "name": "Nicole-portfolio",
+  "name": "Nicole-Portfolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
+  "source":  "index.html",
+
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -30,5 +31,8 @@
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
-  }
+  },
+   "engines": {
+    "node": ">=18.x"
+}
 }
